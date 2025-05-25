@@ -1,0 +1,33 @@
+[
+    {
+        "nama": "Rifki",
+        "umur": 20,
+        "nrp" : "123456789",
+        "lulus": true,
+        "hobby" : [
+            "membaca",
+            "bersepeda",
+            "bermain musik"
+        ],
+        "pembimbing": {
+            "pembimbing1": "Budi",
+            "pembimbing2": "Siti"
+        }
+
+    },
+    {
+        "nama": "Rina",
+        "umur": 22,
+        "nrp" : "987654321",
+        "lulus": false,
+        "hobby" : [
+            "bermain basket",
+            "bermain musik"
+        ],
+        "pembimbing": {
+            "pembimbing1": "Andi",
+            "pembimbing2": "Dewi"
+        }
+
+    }
+]
