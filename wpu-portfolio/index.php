@@ -17,14 +17,14 @@ $youtubeProfilePic = $result['items'][0]['snippet'] ['thumbnails']['default']['u
 $channelName = $result['items'][0]['snippet']['title'];
 $subscriber = $result['items'][0]['statistics']['subscriberCount'];
 
-//latest video
-// $urlLatestVideo = "https://www.googleapis.com/youtube/v3/search?key=AIzaSyAgmQ2UNBWzbBl0wPTmysXznJZZ0N6uxT4&channelId=UCmUPtawmAVJqPaTAcjq86lQ&maxResults=1&order=date&part=snippet";
-// $result = get_Curl($urlLatestVideo);
-// $latestVideoId = $result['items'][0]['id']['videoId'];
+// latest video
+$urlLatestVideo = "https://www.googleapis.com/youtube/v3/search?key=AIzaSyAgmQ2UNBWzbBl0wPTmysXznJZZ0N6uxT4&channelId=UCmUPtawmAVJqPaTAcjq86lQ&maxResults=1&order=date&part=snippet";
+$result = get_Curl($urlLatestVideo);
+$latestVideoId = $result['items'][0]['id']['videoId'];
 
 //instagram API
 $clientID = "1277256363821289";
-$accessToken = "IGAASJqGvaSOlBZAE1WY1hWT0VseUpIN1pmeWxQLXpnYVpFaWx6S1BnSUdQQklZAbUFvRWhYRVRUa2xJREh3c201ZA0lCZAE96b2ZAmeXNUTGZAzUFpEOENVd012T0tfUFNyUHhFcXRKSV80UkR3TW94VUt6d0ZAYQ19UZAndJbFJsX0RXZAwZDZD";
+$accessToken = "IGAAY4R58J6MRBZAFBWbUlwNGpySlgxMWU3SVFrV1duUjJXd3pKcHJZAMTdWRkVMdlZADVmV3VDhVd2lIdHE0cy0wTmpaV2RPUVNjM2RuN1lNT2MtcjNyeDhueUk2WXFEODJ3OE5GTC1BbDNIWWR5SWZAlNHluQURPRFBsOFBnOTd1dwZDZD";
 
 $result2 = get_Curl("https://graph.instagram.com/v22.0/me?fields=username,profile_picture_url,followers_count&access_token=IGAAY4R58J6MRBZAFBWbUlwNGpySlgxMWU3SVFrV1duUjJXd3pKcHJZAMTdWRkVMdlZADVmV3VDhVd2lIdHE0cy0wTmpaV2RPUVNjM2RuN1lNT2MtcjNyeDhueUk2WXFEODJ3OE5GTC1BbDNIWWR5SWZAlNHluQURPRFBsOFBnOTd1dwZDZD");
 
@@ -63,7 +63,7 @@ $gambar1 = $resultGambar1['media_url'];
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#home">Sandhika Galih</a>
+        <a class="navbar-brand" href="#home">Rifki Ananda</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -87,9 +87,9 @@ $gambar1 = $resultGambar1['media_url'];
     <div class="jumbotron" id="home">
       <div class="container">
         <div class="text-center">
-          <img src="img/profile1.png" class="rounded-circle img-thumbnail">
-          <h1 class="display-4">Sandhika Galih</h1>
-          <h3 class="lead">Lecturer | Programmer | Youtuber</h3>
+          <img src="img/profile3.png." class="rounded-circle img-thumbnail">
+          <h1 class="display-4">Rifki Ananda</h1>
+          <h3 class="lead">Leader | Programmer | Youtuber</h3>
         </div>
       </div>
     </div>
@@ -178,7 +178,7 @@ $gambar1 = $resultGambar1['media_url'];
         <div class="row">
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/1.png" alt="Card image cap">
+              <img class="card-img-top" src="img/thumbs/Hmi.jpeg" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -187,7 +187,7 @@ $gambar1 = $resultGambar1['media_url'];
 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/2.png" alt="Card image cap">
+              <img class="card-img-top" src="img/thumbs/fotoo.JPG" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -196,7 +196,7 @@ $gambar1 = $resultGambar1['media_url'];
 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/3.png" alt="Card image cap">
+              <img class="card-img-top" src="img/thumbs/img1.jpg" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -207,7 +207,7 @@ $gambar1 = $resultGambar1['media_url'];
         <div class="row">
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/4.png" alt="Card image cap">
+              <img class="card-img-top" src="img/thumbs/img3.jpg" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -215,7 +215,7 @@ $gambar1 = $resultGambar1['media_url'];
           </div> 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/5.png" alt="Card image cap">
+              <img class="card-img-top" src="img/thumbs/img2.jpg" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
@@ -225,7 +225,7 @@ $gambar1 = $resultGambar1['media_url'];
 
           <div class="col-md mb-4">
             <div class="card">
-              <img class="card-img-top" src="img/thumbs/6.png" alt="Card image cap">
+              <img class="card-img-top" src="img/thumbs/img4.jpg" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
